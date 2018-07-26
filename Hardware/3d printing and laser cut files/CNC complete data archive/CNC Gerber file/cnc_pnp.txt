@@ -1,0 +1,31 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=cnc
+*Date=19:23:18
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;28.4429;-2.32375;0;Bottom;TXT2
+2;;THT;64.1864;-27.3227;0;Bottom;L293D
+3;;THT;28.4994;-9.28871;-90;Bottom;5-9VDC
+4;;THT;28.6264;-27.3227;0;Bottom;L293D
+5;;;64.1863;-32.4027;0;Bottom;Via2
+6;;;4.49639;-3.19272;0;Bottom;Hole4
+7;;;88.3164;-3.19272;0;Bottom;Hole1
+8;;;4.49639;-47.6427;0;Bottom;Hole3
+9;;;68.719;-48.5942;0;Bottom;TXT1
+10;;THT;85.5224;-32.5297;0;Bottom;M3
+11;;;88.3164;-47.6427;0;Bottom;Hole2
+12;;THT;8.05239;-32.5297;0;Bottom;M1
+13;;THT;8.05239;-22.3697;0;Bottom;M2
+14;;;46.4064;-26.0441;0;Bottom;Arduino nano
+15;;THT;24.8164;-45.1027;-90;Bottom;SERVO
+16;;THT;85.5224;-22.3697;0;Bottom;M4
