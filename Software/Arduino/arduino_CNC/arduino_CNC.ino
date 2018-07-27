@@ -335,19 +335,23 @@ void drawLine(float x1, float y1) {
 }
 
 
-void penUp() { 
+void penUp() 
+{ 
   penServo.write(penZUp); 
   delay(LineDelay); 
   Zpos=Zmax; 
-  if (verbose) { 
+  if (verbose) 
+  { 
     Serial.println("Pen up!"); 
   } 
 }
-void penDown() { 
+void penDown() 
+{ 
   penServo.write(penZDown); 
   delay(LineDelay); 
   Zpos=Zmin; 
-  if (verbose) { 
+  if (verbose) 
+  { 
     Serial.println("Pen down."); 
   } 
 }
