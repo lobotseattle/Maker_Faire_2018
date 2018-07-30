@@ -21,7 +21,7 @@ const int stepsPerRevolution = 250;  // change this to fit the number of steps p
 // for your motor
 
 // initialize the stepper library on pins 8 through 11:
-Stepper myStepper(stepsPerRevolution, 5,2,4,3);
+Stepper myStepper(stepsPerRevolution, 5,2,3,4);
 
 void setup() {
   // set the speed at 60 rpm:

@@ -1,0 +1,79 @@
+(Generated with: DXF2GCODE, Version: Py3.6.2 PyQt5.9, Date: $Date: Mon Sep 25 13:57:11 2017 +0200 $)
+(Created from file: C:/Users/roshe/OneDrive/LOB stuff/Maker Faire 2018/Github/Maker_Faire_2018/Software/DXF FILES/Horizontal Test2.dxf)
+(Output format description: G-CODE for LinuxCNC)
+(Time: Sun Jul 29 15:12:59 2018)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000 
+
+(*** LAYER: Layer_1 ***)
+T1 M6
+S6000
+
+(* SHAPE Nr: 0 *)
+G0 X   0.000 Y   0.281
+M3 M8
+G0 Z   3.000 
+F150
+G1 Z  -1.500
+F400
+G1 X  21.260 Y   0.281
+F150
+G1 Z  -3.000
+F400
+G1 X   0.000 Y   0.281
+F150
+G1 Z   3.000
+G0 Z  15.000 
+M9 M5
+
+(* SHAPE Nr: 1 *)
+G0 X   0.109 Y  21.541
+M3 M8
+G0 Z   3.000 
+G1 Z  -1.500
+F400
+G1 X  42.629 Y  21.541
+F150
+G1 Z  -3.000
+F400
+G1 X   0.109 Y  21.541
+F150
+G1 Z   3.000
+G0 Z  15.000 
+M9 M5
+
+(* SHAPE Nr: 2 *)
+G0 X   0.000 Y  42.801
+M3 M8
+G0 Z   3.000 
+G1 Z  -1.500
+F400
+G1 X  63.780 Y  42.801
+F150
+G1 Z  -3.000
+F400
+G1 X   0.000 Y  42.801
+F150
+G1 Z   3.000
+G0 Z  15.000 
+M9 M5
+
+(* SHAPE Nr: 3 *)
+G0 X   0.000 Y  64.061
+M3 M8
+G0 Z   3.000 
+G1 Z  -1.500
+F400
+G1 X  85.039 Y  64.061
+F150
+G1 Z  -3.000
+F400
+G1 X   0.000 Y  64.061
+F150
+G1 Z   3.000
+G0 Z  15.000 
+M9 M5
+G0 X   0.000 Y   0.000
+M2 (Program end)

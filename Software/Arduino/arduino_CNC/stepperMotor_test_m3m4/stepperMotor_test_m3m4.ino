@@ -15,7 +15,7 @@
 
  */
 
-#include <Stepper.h>a
+#include <Stepper.h>
 
 const int stepsPerRevolution = 250;  // change this to fit the number of steps per revolution
 // for your motor
