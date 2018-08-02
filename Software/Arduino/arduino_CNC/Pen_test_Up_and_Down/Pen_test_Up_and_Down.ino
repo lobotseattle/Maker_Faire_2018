@@ -12,8 +12,9 @@
 
 #define LINE_BUFFER_LENGTH 512
 
-const int penZUp = 120;
-const int penZDown = 80;
+const int penZUp = 200; // old 80
+const int penZDown = 120; // old 120
+
 
 const int penServoPin = 6;
 
@@ -51,7 +52,7 @@ float Xpos = Xmin;
 float Ypos = Ymin;
 float Zpos = Zmax; 
 
-boolean verbose = false;
+boolean verbose = true;
 
 void setup() {
   Serial.begin( 9600 );
@@ -63,10 +64,10 @@ void setup() {
 
 void loop() 
 {
- //penUp();
- //delay(2000);
- penDown();
- delay(2000);
+   penUp();
+   delay(10000);
+   penDown();
+   delay(10000);
 }
 void penUp() 
 { 
