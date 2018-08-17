@@ -13,8 +13,7 @@
 #define LINE_BUFFER_LENGTH 512
 
 const int penZUp = 200; // old 80
-const int penZDown = 120; // old 120
-
+const int penZDown = 40; // old 1204
 
 const int penServoPin = 6;
 
