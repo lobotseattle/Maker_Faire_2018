@@ -1,0 +1,21 @@
+1)Install module opencv:
+pip install opencv-python
+2) Install module wx:
+pip install C:\Python27\wxPython-3.0.2.0-cp27-none-win32.whl
+pip show wxpython-common
+pip uninstall wxPython
+pip install C:\Python27\wxPython-4.0.0a1-cp27-cp27m-win32.whl
+
+
+pip install C:\Python27\scipy-1.1.0-cp27-cp27m-win32.whl
+pip install C:\Python27\numpy-1.14.5+mkl-cp27-cp27m-win32.whl
+C:\Python27\python -m pip install pylint
+
+===
+
+SET2
+1)Install module scimage
+pip install scikit-image
+
+2)Install matplotlib
+pip install matplotlib
